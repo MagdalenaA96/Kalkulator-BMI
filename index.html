@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Kalkulator BMI</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="background">
+            <section id="BMIApp">
+                <h1 id="title">Kalkulator BMI</h1>
+                <div id="sth">
+                    <div id="height-column">
+                        <label for="height">Podaj swój wzrost:</label><br/>
+                        <input type="number" id="height" min="0"/><br/>
+                        <img class="images" src="height.jpg" alt="Picture of scales"/>
+                    </div>
+                    <div id="weight-column">
+                        <label for="weight">Podaj swoją wagę:</label><br/>
+                        <input type="number" id="weight" min="0"/><br/>
+                        <img class="images" src="weight.jpg" alt="Picture of centimetre"/>
+                    </div>
+                </div>
+                <button id="BMIButton">Oblicz BMI</button>
+                <div id="placeholder"></div>
+            </section>
+        </div>
+    </body>
+</html>

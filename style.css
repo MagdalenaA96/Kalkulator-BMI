@@ -1,0 +1,77 @@
+section#BMIApp {
+    margin: 60px auto 0;
+    width: 430px;
+    height: 650px;
+    border: 4px solid black;
+    border-radius: 5%;
+    background-color: rgb(196, 223, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+div#sth {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h1#title {
+    font-size: 1.9rem;
+    padding: 25;
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+img.images {
+    box-sizing: border-box;
+    width: 177px;
+    height: 180px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(60, 4, 4);
+    border-radius: 4px;
+}
+
+button#BMIButton {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(77, 175, 92);
+    margin-bottom: 20px;
+    
+}
+
+div#placeholder {
+    margin: 0 15px;
+    text-align: justify;
+}
+
+div#result {
+    margin: 0;
+    text-align: center;
+    border: 3px solid rgb(6, 73, 82);
+    background-color: rgb(237, 198, 69);
+    font-weight: bold;
+}
+p.myBMI {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+span#BMIResult {
+    font-size: 2rem;
+}
+
+div p#rangeOfBMI {
+    color: rgb(61, 55, 55);
+   text-align:  center;
+}
